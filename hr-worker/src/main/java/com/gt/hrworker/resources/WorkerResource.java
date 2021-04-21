@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/workers")
-public class WorkerResources {
+public class WorkerResource {
 
     @Autowired
     private WorkerRepository workerRepository;
